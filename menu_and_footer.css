@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/* menu */
+#menu_line {
+	padding: 0;
+	height: 120px;
+	width: 100%;
+	background: #4BA0FF;
+	color: white;
+
+}
+
+#menu_line a {
+	color:white;
+	font-family: sans-serif;
+	font-weight: 100;
+	text-decoration: none;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#menu_line a:hover {
+	color: #F1A626;
+}
+
+#menu_link {
+	width: 200px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.active {
+	color: #F1A626 !important;
+}
+
+/* footer */
+#footer {
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: small;
+	text-align: center;
+}
